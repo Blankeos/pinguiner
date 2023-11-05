@@ -1,3 +1,38 @@
+# pinguiner
+
+No auth, kinda like Twitter, but Rich Text. Just playing around with CRUD on
+SvelteKit, Form Actions, TipTap (Rich Text Editor), Form Actions, Prisma, SQLite.
+
+![demo](./demo.gif)
+
+### Development
+
+1. Setup
+
+```sh
+> $ git clone https://github.com/Blankeos/pinguiner.git
+pinguiner> $ cd pinguiner
+pinguiner> $ pnpm install
+```
+
+2. Database Setup
+
+```
+npx primsa generate
+npx prisma db push
+```
+
+> This is only local. I'm using a file database with sqlite inside the `prisma/`
+> folder. You can always create an **.env** variable, add `DATABASE_URL` on it,
+> and use `url = env("DATABASE_URL")` in schema.prisma if you want to change.
+
+3. Run the dev server
+
+```
+pnpm dev
+```
+
+<!--
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
@@ -35,4 +70,4 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment. -->
