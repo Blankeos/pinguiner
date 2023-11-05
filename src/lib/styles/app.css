@@ -1,0 +1,17 @@
+@import 'geist.css';
+@import 'geist-mono.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Geist';
+}
+code {
+  font-family: 'GeistMono';
+}
+
+pre {
+  font-family: 'GeistMono';
+}

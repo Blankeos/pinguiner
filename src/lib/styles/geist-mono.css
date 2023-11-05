@@ -1,0 +1,80 @@
+/* Import all fonts in src/assets/fonts/ */
+@font-face {
+  font-family: 'GeistMono';
+  src:
+    local('GeistMonoVF'),
+    url('@/assets/fonts/GeistMonoVF.woff2') format('woff2');
+}
+
+/* Import individual font weights */
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 100;
+  src:
+    local('GeistMono-Thin'),
+    url('@/assets/fonts/GeistMono-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 200;
+  src:
+    local('GeistMono-UltraLight'),
+    url('@/assets/fonts/GeistMono-UltraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 300;
+  src:
+    local('GeistMono-Light'),
+    url('@/assets/fonts/GeistMono-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 400;
+  src:
+    local('GeistMono-Regular'),
+    url('@/assets/fonts/GeistMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 500;
+  src:
+    local('GeistMono-Medium'),
+    url('@/assets/fonts/GeistMono-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 600;
+  src:
+    local('GeistMono-SemiBold'),
+    url('@/assets/fonts/GeistMono-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 700;
+  src:
+    local('GeistMono-Bold'),
+    url('@/assets/fonts/GeistMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 800;
+  src:
+    local('GeistMono-Black'),
+    url('@/assets/fonts/GeistMono-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GeistMono';
+  font-weight: 900;
+  src:
+    local('GeistMono-UltraBlack'),
+    url('@/assets/fonts/GeistMono-UltraBlack.woff2') format('woff2');
+}
